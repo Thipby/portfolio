@@ -1,13 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
-    <title>Portfolio ทิพานัน</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | ทิพานัน ชัยชาญ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Sarabun:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#9933CC">
-<h1>หน้าหลัก</h1>
-<a href="personal.html">ประวัติส่วนตัว</a>
-<a href="personal.html">ประวัติ่การศึกษา</a>
-<a href="personal.html">ผลงานหรือกิจกรรม</a>
-<a href="personal.html">ช่องทางการติดต่อ</a>
+<body>
+<div class="bg-fixed"></div>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="eq"><span></span><span></span><span></span><span></span><span></span></span>
+      การ์ตูน.
+    </a>
+    <button class="nav-toggle" aria-label="เปิดเมนู">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">หน้าหลัก</a></li>
+      <li><a href="personal.html">ประวัติส่วนตัว</a></li>
+      <li><a href="education.html">ประวัติการศึกษา</a></li>
+      <li><a href="activities.html">ผลงาน/กิจกรรม</a></li>
+      <li><a href="certificates.html">เกียรติบัตร</a></li>
+      <li><a href="contact.html">ติดต่อ</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="hero-text">
+      <span class="eyebrow"><span class="eq"><span></span><span></span><span></span><span></span><span></span></span> Portfolio ม.6</span>
+      <h1>สวัสดีค่ะ ฉันชื่อ<br><span class="accent">ทิพานัน ชัยชาญ</span></h1>
+      <p class="lede">นักเรียนชั้นมัธยมศึกษาตอนปลาย โรงเรียนพานทอง ชื่อเล่น "การ์ตูน" คนที่ชอบฟังเพลงเป็นชีวิตจิตใจ และอยากให้พอร์ตนี้บอกเล่าเรื่องราวของตัวเองแบบมีสีสัน</p>
+      <div class="hero-actions">
+        <a href="personal.html" class="btn btn-primary">รู้จักฉันมากขึ้น</a>
+        <a href="activities.html" class="btn btn-ghost">ดูผลงาน/กิจกรรม</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="images/profile-1.webp" alt="รูปถ่ายของทิพานัน ชัยชาญ">
+    </div>
+  </div>
+</header>
+
+<section class="topics">
+  <div class="container">
+    <div class="topics-grid">
+      <a href="personal.html" class="topic-card reveal">
+        <span class="num">01</span>
+        <h3>ประวัติส่วนตัว</h3>
+        <p>ชื่อ วันเกิด และเรื่องราวเล็ก ๆ ที่อยากเล่า</p>
+      </a>
+      <a href="education.html" class="topic-card reveal">
+        <span class="num">02</span>
+        <h3>ประวัติการศึกษา</h3>
+        <p>เส้นทางการเรียนตั้งแต่ชั้นประถมจนถึงปัจจุบัน</p>
+      </a>
+      <a href="activities.html" class="topic-card reveal">
+        <span class="num">03</span>
+        <h3>ผลงาน/กิจกรรม</h3>
+        <p>กิจกรรมและประสบการณ์ที่ได้เข้าร่วมในโรงเรียน</p>
+      </a>
+      <a href="certificates.html" class="topic-card reveal">
+        <span class="num">04</span>
+        <h3>เกียรติบัตร</h3>
+        <p>รางวัลและใบประกาศที่ได้รับ</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">© 2569 ทิพานัน ชัยชาญ · จัดทำเพื่อการเรียนรู้รายวิชาโครงงานเทคโนโลยี</div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

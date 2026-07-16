@@ -1,33 +1,74 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="th">
 <head>
-
-    <title>ประวัติส่วนตัว</title>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ประวัติส่วนตัว | ทิพานัน ชัยชาญ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Sarabun:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<div class="bg-fixed"></div>
 
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="eq"><span></span><span></span><span></span><span></span><span></span></span>
+      การ์ตูน.
+    </a>
+    <button class="nav-toggle" aria-label="เปิดเมนู">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">หน้าหลัก</a></li>
+      <li><a href="personal.html" class="active">ประวัติส่วนตัว</a></li>
+      <li><a href="education.html">ประวัติการศึกษา</a></li>
+      <li><a href="activities.html">ผลงาน/กิจกรรม</a></li>
+      <li><a href="certificates.html">เกียรติบัตร</a></li>
+      <li><a href="contact.html">ติดต่อ</a></li>
+    </ul>
+  </div>
+</nav>
 
+<header class="page-head">
+  <div class="container">
+    <span class="eyebrow">01 · About</span>
+    <h1>ประวัติส่วนตัว</h1>
+    <p>เรื่องราวเล็ก ๆ เกี่ยวกับตัวฉัน</p>
+  </div>
+</header>
 
-<h1>ประวัติส่วนตัว</h1>
-<img src="images/img_20260709_110541_920.webp "width="200">
+<section class="content">
+  <div class="container">
+    <div class="about-grid reveal">
+      <div class="about-photo">
+        <img src="images/profile-2.webp" alt="รูปถ่ายของทิพานัน ชัยชาญ">
+      </div>
+      <div class="info-card">
+        <div class="info-row">
+          <span class="label">ชื่อ</span>
+          <span class="value">ทิพานัน ชัยชาญ</span>
+        </div>
+        <div class="info-row">
+          <span class="label">ชื่อเล่น</span>
+          <span class="value">การ์ตูน</span>
+        </div>
+        <div class="info-row">
+          <span class="label">วันเกิด</span>
+          <span class="value">29 พฤศจิกายน 2551</span>
+        </div>
+        <div class="info-row">
+          <span class="label">สิ่งที่ชอบ</span>
+          <span class="value">ฟังเพลงมาก ๆ <span class="eq" style="vertical-align:middle;margin-left:6px;"><span></span><span></span><span></span><span></span><span></span></span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<footer class="site-footer">
+  <div class="container">© 2569 ทิพานัน ชัยชาญ · จัดทำเพื่อการเรียนรู้รายวิชาโครงงานเทคโนโลยี</div>
+</footer>
 
-<p>
-  ชื่อ ทิพานัน ชัยชาญ<br>
-  ชื่อเล่น การ์ตูน<br>
-  วันเกิด 29 พฤศจิกายน 2551<br>
-  ฉันชอบฟังเพลงแบบมากๆ<br>
-</p>
-
-
-
-
-
-
+<script src="script.js"></script>
 </body>
-
 </html>
